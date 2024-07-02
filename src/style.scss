@@ -6,6 +6,10 @@
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
 }
 
 .content {
@@ -14,13 +18,16 @@
     align-items: center;
     justify-content: center;
     gap: 20px;
-    height: 90vh;
+    height: 100vh;
+
+    .question {
+        margin: 10px;
+    }
     
     button {
         border: none;
         background-color:$rose;
         padding: 15px 30px;
-        /* color: $white; */
         border-radius: 5px;
         cursor: pointer;
     }

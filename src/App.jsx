@@ -53,10 +53,10 @@ function App() {
 
   return (
     <div className="content">
-      <h1>[ Quiz - React ]</h1>
+      <h1>[ 👩🏻‍💻 Quiz - React ]</h1>
       {isQuizFinished ? (
         <>
-          <p>Quiz finalizado!</p>
+          <p>Quiz finalizado! 🎉</p>
           <p>Você acertou {count} de 4!</p>
         </>
       ) : (
@@ -66,13 +66,14 @@ function App() {
               <div className="questions" key={question.id}>
                 <h1>{question.question}</h1>
                 {question.options.map((option) => (
-                  <Radiobutton
-                    key={index + option}
-                    option={option}
-                    setOption={setCurrentAnswer}
-                    selectedOption={currentAnswer}
-                    onChange={handleChange}
-                  />
+                  <div key={index + option} className="question">
+                    <Radiobutton
+                      option={option}
+                      setOption={setCurrentAnswer}
+                      selectedOption={currentAnswer}
+                      onChange={handleChange}
+                    />
+                  </div>
                 ))}
               </div>
             );
