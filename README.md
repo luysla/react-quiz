@@ -1,8 +1,8 @@
-# React + Vite
+# 👩🏻‍💻 Quiz 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Projeto simples apenas pra treinar minhas habilidades no React :)
 
-Currently, two official plugins are available:
+![image](https://github.com/luysla/react-quiz/assets/19508155/fcd26ea4-1802-471b-8486-b87a802af3fd)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Acesse o projeto aqui: </br>
+<a href="https://quizaboutreact.netlify.app/" target="_blank">https://quizaboutreact.netlify.app/</a>
